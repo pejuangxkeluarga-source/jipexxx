@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Captcha Challenge</title>
+    <link rel="stylesheet" href="/css/app.css">
+		<script src="/jquery.js"></script>
+  </head>
+  <body>
+
+    
+    
+    <div class="allmighty-wrapper">
+        <div class="wrapper">
+            <div class="logo">
+                <img src="/img/logo.png" alt="">
+            </div>
+            <span class="captcha-text">Please check the captcha box to proceed to the destination page.</span>
+            <a href="#">
+            <div class="captcha-img">
+                <a href="#" id="url"><img src="/img/captcha.png" alt=""></a>
+            </div>
+        </a>
+            <span class="captcha-warn"><a href="#" id="url2">Click here</a> if you cannot submit recaptcha</span>
+      
+        </div>
+        <div class="footer">
+                <div class="footer-content">
+                    <p class="footer-copyright">© 2018 Instagram</p>
+                </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("url").onclick=gogogo;
+        document.getElementById("url2").onclick=gogogo;
+        function gogogo()
+        {
+            top.location.replace(url);
+            return false;
+        }
+    </script>
+
+  </body>
+</html>
